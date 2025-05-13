@@ -1,6 +1,7 @@
 # Examen-de-redes
 
 *MISION 1*
+
 Partimos de la red 172.16.0.0/24 y hacemos subnetting con VLSM para crear subredes eficientes. Las necesidades son:
 
 Comando Central: ~50 hosts
