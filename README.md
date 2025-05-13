@@ -18,6 +18,7 @@ Hangar y Taller	172.16.0.128/28	255.255.255.240	14	172.16.0.129 – 142	172.16.0
 Enlace Troncal	172.16.0.144/30	255.255.255.252	2	172.16.0.145 – 146	172.16.0.147
 
 *EJERCICIO 2*
+
 El enrutamiento estático lo configura un administrador manualmente. Es sencillo, consume pocos recursos y da control total, pero si un enlace cae, no se adapta. Sería como si un Jedi tuviera que redibujar el mapa cada vez que cambia el terreno.
 En cambio, el enrutamiento dinámico (como OSPF) aprende automáticamente las rutas y se adapta si algo falla. Es ideal para redes grandes como la HoloRed, aunque usa más recursos del router.
 También hay diferentes estilos de protocolos dinámicos:
@@ -27,6 +28,7 @@ OSPF, más avanzado, construye un mapa completo de la red y calcula la mejor rut
 
 
 *EJERCICIO 3*
+
 En una red, no solemos escribir direcciones IP para comunicarnos con otros dispositivos. Es mucho más cómodo usar nombres como planes.secretos. Pero los ordenadores no entienden nombres, solo entienden direcciones IP. Por eso usamos DNS.
 
 El DNS es como una guía telefónica. Cuando un ordenador necesita hablar con otro usando un nombre, pregunta al servidor DNS cuál es la dirección IP correspondiente. Por ejemplo, si escribes planes.secretos, el PC consulta al DNS y este le responde: "la IP es 192.168.50.100". Entonces el PC ya sabe a dónde enviar los paquetes.
@@ -36,6 +38,7 @@ Esto pasa automáticamente cada vez que usas un navegador, haces ping a un nombr
 En esta misión, configurar un servidor DNS en la red de Coruscant permite que tanto el PC Bothan como el PC de la Flota puedan usar nombres en lugar de memorizar direcciones. Sin DNS, sería imposible comunicarse usando nombres, y todo sería más lento y propenso a errores.
 
 *EJERCICIO 4*
+
 Cifrado simétrico
 El cifrado simétrico utiliza una única clave secreta para cifrar y descifrar los mensajes. Es rápido y eficiente, pero tiene una gran debilidad: la clave debe compartirse previamente.
 Si Leia y Luke acuerdan una frase secreta para comunicarse, eso es cifrado simétrico. Pero si esa clave es interceptada, el enemigo podría leer todos los mensajes.
